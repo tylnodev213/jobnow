@@ -8,6 +8,7 @@
         "php": "^8.0.2",
         "bensampo/laravel-enum": "^6.1",
         "doctrine/dbal": "^3.5",
+        "encore/laravel-admin": "^1.8",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
