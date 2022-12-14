@@ -14,9 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/',[ContactsController::class, 'index'])->name('index');
-Route::get('/create',[ContactsController::class, 'create'])->name('create');
-Route::post('/create',[ContactsController::class, 'store'])->name('store');
-Route::get('/edit/{id}',[ContactsController::class, 'edit'])->name('edit');
-Route::post('/update/{id}',[ContactsController::class, 'update'])->name('update');
-Route::post('/delete/{id}',[ContactsController::class, 'destroy'])->name('destroy');
+Route::get('/', function () {
+    return view('web.home.index');
+});
