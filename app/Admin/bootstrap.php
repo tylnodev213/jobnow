@@ -18,4 +18,8 @@
  *
  */
 
+use Encore\Admin\Facades\Admin;
+
 Encore\Admin\Form::forget(['map', 'editor']);
+Admin::css(public_path('assets/css/admin/style.css'));
+Admin::js(public_path('assets/js/admin/common,js'));

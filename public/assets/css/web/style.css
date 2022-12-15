@@ -1,0 +1,42 @@
+.f-s-20{
+    font-size: 20px;
+}
+.f-s-70{
+    font-size: 70px;
+}
+.f-s-30{
+    font-size: 30px;
+}
+.f-s-18{
+    font-size: 18px;
+}
+.f-s-50{
+    font-size: 50px;
+}
+.f-s-25{
+    font-size: 25px;
+}
+.f-s-12{
+    font-size: 12px;
+}
+.f-s-40{
+    font-size: 40px;
+}
+.text-white{
+    color: white;
+}
+.text-black{
+    color: black;
+}
+.text-purple{
+    color: #4540DB;
+}
+.bg-purble{
+    background-color: #4540DB;
+}
+.text-gray{
+    color: #878787;
+}
+.menu-link a:hover{
+    color: #4540DB !important;
+}

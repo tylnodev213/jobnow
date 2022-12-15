@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row my-3 justify-content-between mx-0 align-items-center">
             <div class="col-3">
-                <img class="w-100" src="/img/img-logo.png" alt="">
+                <img class="w-100" src="\assets\img\img-logo.jpg" alt="">
             </div>
             <div class="menu-link col-xl-5 col-6 d-flex justify-content-around text-decoration-none text-black">
                 <a class="text-decoration-none text-black" href="">

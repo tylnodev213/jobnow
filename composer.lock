@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d63ea41d8ad53667588c413d0fe3e02",
+    "content-hash": "e8d5357b282a7e4228a3c92e80049d54",
     "packages": [
         {
             "name": "bensampo/laravel-enum",
-            "version": "v6.1.0",
+            "version": "v6.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BenSampo/laravel-enum.git",
-                "reference": "9ff2ee868adb8c415c5e0062698ddb5536564257"
+                "reference": "04819a29a34a922c1289cf3794931c044f13ca62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BenSampo/laravel-enum/zipball/9ff2ee868adb8c415c5e0062698ddb5536564257",
-                "reference": "9ff2ee868adb8c415c5e0062698ddb5536564257",
+                "url": "https://api.github.com/repos/BenSampo/laravel-enum/zipball/04819a29a34a922c1289cf3794931c044f13ca62",
+                "reference": "04819a29a34a922c1289cf3794931c044f13ca62",
                 "shasum": ""
             },
             "require": {
@@ -83,7 +83,7 @@
             ],
             "support": {
                 "issues": "https://github.com/BenSampo/laravel-enum/issues",
-                "source": "https://github.com/BenSampo/laravel-enum/tree/v6.1.0"
+                "source": "https://github.com/BenSampo/laravel-enum/tree/v6.2.0"
             },
             "funding": [
                 {
@@ -91,7 +91,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-10-26T14:22:52+00:00"
+            "time": "2022-12-07T10:34:06+00:00"
         },
         {
             "name": "brick/math",
