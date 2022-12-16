@@ -9,23 +9,23 @@
 @section('content')
     <section>
         <div class="container">
-            <div class="row mt-5 my-3 justify-content-center text-center">
+            <div class="row mt-lg-5 my-lg-3 mt-3 my-0 justify-content-center text-center">
                 <div class="text-center col-7 f-s-70">
                     Get The <span class="text-purple">Right Job</span> You Deserve
                 </div>
             </div>
-            <div class="row my-5 f-s-18 text-gray justify-content-center">
-                <div class="col-4 position-relative  px-0">
-                    <input class="w-100 ps-5 " placeholder="Search Title or Keyword" type="text"
+            <div class="row my-2 my-md-3 my-lg-5 f-s-18 text-gray justify-content-center">
+                <div class="col-lg-4 col-10 my-lg-0 my-2 position-relative  px-0">
+                    <input class="w-100 ps-5 input-search0 " placeholder=" Search Title or Keyword" type="text"
                            style="border-radius: 20px 0 0 20px;height: 60px; border: none;border-right: 2px solid #878787 ;box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;">
                     <i class="fa fa-search position-absolute f-s-30" style="top:26%; left:3%"></i>
                 </div>
-                <div class="col-6 position-relative position -relative px-0">
-                    <input type="text" placeholder="Search Location" class="w-100 ps-5"
+                <div class="col-lg-6 col-10 position-relative  px-0 mb-lg-0 mb-5">
+                    <input type="text" placeholder="Search Location" class="w-100 ps-5 input-search"
                            style="border-radius: 0 20px 20px 0px; height: 60px; border: none;box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;">
                     <i class="fa fa-location-dot position-absolute f-s-30" style="top: 26%; left: 3%;"></i>
-                    <button class="text-white bg-purble position-absolute py-2"
-                            style="width: 119px; height: 60px; top: 0%; right: 0%; border-radius: 20px; border: none;">search</button>
+                    <button class="text-white bg-purble position-absolute input-search-btn py-2"
+                            style="width: 119px; height: 60px;  border-radius: 20px; border: none;">search</button>
                 </div>
             </div>
         </div>
