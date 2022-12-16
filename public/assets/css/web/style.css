@@ -1,42 +1,167 @@
-.f-s-20{
+.f-s-20 {
     font-size: 20px;
 }
-.f-s-70{
+
+.f-s-70 {
     font-size: 70px;
 }
-.f-s-30{
+
+.f-s-30 {
     font-size: 30px;
 }
-.f-s-18{
+
+.f-s-18 {
     font-size: 18px;
 }
-.f-s-50{
+
+.f-s-50 {
     font-size: 50px;
 }
-.f-s-25{
+
+.f-s-25 {
     font-size: 25px;
 }
-.f-s-12{
+
+.f-s-12 {
     font-size: 12px;
 }
-.f-s-40{
+
+.f-s-40 {
     font-size: 40px;
 }
-.text-white{
+
+.text-white {
     color: white;
 }
-.text-black{
+
+.text-black {
     color: black;
 }
-.text-purple{
+
+.text-purple {
     color: #4540DB;
 }
-.bg-purble{
+
+.bg-purble {
     background-color: #4540DB;
 }
-.text-gray{
+
+.text-gray {
     color: #878787;
 }
-.menu-link a:hover{
+
+.menu-link a:hover {
     color: #4540DB !important;
+}
+
+@media screen and (max-width: 1199px) {
+    .f-s-70 {
+        font-size: 65px;
+    }
+
+    .f-s-50 {
+        font-size: 45px;
+    }
+
+    .f-s-40 {
+        font-size: 32px;
+    }
+
+    .f-s-25 {
+        font-size: 20px;
+    }
+
+    .f-s-20 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 987px) {
+    .f-s-70 {
+        font-size: 50px;
+    }
+
+    .f-s-50 {
+        font-size: 30px;
+    }
+
+    .f-s-40 {
+        font-size: 28px;
+    }
+
+    .f-s-25 {
+        font-size: 18px;
+    }
+
+    .f-s-20 {
+        font-size: 14px;
+    }
+
+    .f-s-18 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .f-s-70 {
+        font-size: 37px;
+    }
+
+    .f-s-50 {
+        font-size: 25px;
+    }
+
+    .f-s-40 {
+        font-size: 20px;
+    }
+
+    .f-s-25 {
+        font-size: 14px;
+    }
+
+    .f-s-20 {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 538px) {
+    .f-s-70 {
+        font-size: 30px;
+    }
+
+    .f-s-40 {
+        font-size: 20px;
+    }
+
+    .f-s-25 {
+        font-size: 15px;
+    }
+
+    .f-s-20 {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 444px) {
+    .f-s-70 {
+        font-size: 25px;
+    }
+
+    .f-s-40 {
+        font-size: 20px;
+    }
+
+    .f-s-25 {
+        font-size: 15px;
+    }
+
+    .f-s-20 {
+        font-size: 12px;
+    }
+
+    .f-s-18 {
+        font-size: 10px;
+    }
+
 }
