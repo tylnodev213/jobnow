@@ -53,6 +53,15 @@
 .menu-link a:hover {
     color: #4540DB !important;
 }
+.cursor-pointer{
+    cursor: pointer;
+}
+.text-justify{
+    text-align: justify;
+}
+.text-space{
+    letter-spacing: -1px;
+}
 
 @media screen and (max-width: 1199px) {
     .f-s-70 {
