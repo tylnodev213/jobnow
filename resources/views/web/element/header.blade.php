@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img class="w-100" src="/img/img-logo.png" alt="">
+                <img class="w-100" src="{{ asset('assets/img/img-logo.png')  }}" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
