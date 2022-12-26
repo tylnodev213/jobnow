@@ -60,7 +60,7 @@
     text-align: justify;
 }
 .text-space{
-    letter-spacing: -1px;
+    letter-spacing: -1.5px;
 }
 
 @media screen and (max-width: 1199px) {

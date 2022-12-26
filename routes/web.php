@@ -17,3 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('web.home.index');
 });
+
+Route::get('/find-job', function () {
+    return view('web.find-job.find_job');
+});
