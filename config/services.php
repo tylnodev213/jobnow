@@ -31,4 +31,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'chat_work' => [
+        'is_enable' => env('CHATWORK_IS_ENABLE', false),
+        'api_token' => env('CHATWORK_API_TOKEN', ''),
+        'room_id_error' => env('CHATWORK_ROOM_ID_ERROR', ''),
+        'message_max_length' => env('CHATWORK_MSG_MAX_LENGTH', 2000),
+    ],
 ];

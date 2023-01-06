@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* =======================================
+	CommonElements
+======================================= */
+html, body {
+    font-family: "Roboto", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", sans-serif;
+}

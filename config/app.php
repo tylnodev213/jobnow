@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'debug' => (bool) env('APP_DEBUG', false),
+    'debug' => (bool)env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -58,6 +58,8 @@ return [
 
     'asset_url' => env('ASSET_URL'),
 
+    'https' => env('IS_HTTPS', false),
+
     /*
     |--------------------------------------------------------------------------
     | Application Timezone
@@ -69,7 +71,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => env('TIMEZONE', 'Asia/Tokyo'),
 
     /*
     |--------------------------------------------------------------------------
@@ -82,7 +84,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => env('LOCALE', 'ja'),
 
     /*
     |--------------------------------------------------------------------------
@@ -95,7 +97,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => env('FALLBACK_LOCALE', 'ja'),
 
     /*
     |--------------------------------------------------------------------------
@@ -108,7 +110,7 @@ return [
     |
     */
 
-    'faker_locale' => 'en_US',
+    'faker_locale' => env('FAKER_LOCALE', 'ja_JP'),
 
     /*
     |--------------------------------------------------------------------------
@@ -185,6 +187,9 @@ return [
         /*
          * Package Service Providers...
          */
+        Barryvdh\Debugbar\ServiceProvider::class,
+        Jenssegers\Agent\AgentServiceProvider::class,
+        Kyslik\ColumnSortable\ColumnSortableServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -195,6 +200,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Core Service Providers...
+         */
+        App\Providers\ValidationServiceProvider::class,
+        Core\Providers\CustomHtmlServiceProvider::class,
     ],
 
     /*
@@ -209,7 +219,12 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-        // 'ExampleClass' => App\Example\ExampleClass::class,
+        'Debugbar' => Barryvdh\Debugbar\Facades\Debugbar::class,
+        'Agent' => Jenssegers\Agent\Facades\Agent::class,
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
+        'ChannelLog' => Core\Providers\Facades\Log\ChannelLog::class,
+        'BaseStorage' => Core\Providers\Facades\Storages\BaseStorage::class,
     ])->toArray(),
 
 ];

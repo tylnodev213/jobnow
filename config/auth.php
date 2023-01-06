@@ -36,6 +36,10 @@ return [
     */
 
     'guards' => [
+        'admin' => [
+            'driver' => 'session',
+            'provider' => 'admin_users',
+        ],
         'web' => [
             'driver' => 'session',
             'provider' => 'users',
@@ -60,15 +64,14 @@ return [
     */
 
     'providers' => [
+        'admin_users' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\AdminUser::class,
+        ],
         'users' => [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
         ],
-
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
     ],
 
     /*
@@ -107,5 +110,4 @@ return [
     */
 
     'password_timeout' => 10800,
-
 ];
