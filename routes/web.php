@@ -21,3 +21,6 @@ Route::get('/', function () {
 Route::get('/find-job', function () {
     return view('web.find-job.find_job');
 });
+Route::get('/post-job', function () {
+    return view('web.post-job.post_job');
+});

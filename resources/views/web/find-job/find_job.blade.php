@@ -67,6 +67,165 @@
         <div class="container">
             <div class="row my-3">
                 <div class="col f-s-20 text-black">
+                    Công ty mới nhất
+                </div>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="card "
+                             style="border: none; border-radius:15px ;  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;">
+                            <div class="row mt-3 mx-0 align-items-center">
+                                <div class="col-3">
+                                    <img src="assets/img/logo-company.png" class="card-img-top w-100" alt="...">
+                                </div>
+                                <div class="col d-flex flex-column f-s-18 text-start">
+                                    Microsoft
+                                    <span class="f-s-12 ">Freelancer</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Senior UI Designer</h5>
+                                <p class="f-s-12">Fulltime</p>
+                                <p class="card-text text-justify text-space">This is a wider card with supporting text
+                                    below as a natural lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <div class="row">
+                                    <span class="f-s-12 col"><span class="f-s-18">$2500</span>/month</span>
+                                    <a href="#" class="f-s-18 text-decoration-none  col text-purple text-end">Apply
+                                        now</a>
+                                </div>
+                            </div>
+                            <div class="card-footer " style=" border-top:none">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card "
+                             style="border: none; border-radius:15px ;  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;">
+                            <div class="row mt-3 mx-0 align-items-center">
+                                <div class="col-3">
+                                    <img src="assets/img/logo-company.png" class="card-img-top w-100" alt="...">
+                                </div>
+                                <div class="col d-flex flex-column f-s-18 text-start">
+                                    Microsoft
+                                    <span class="f-s-12 ">Freelancer</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Senior UI Designer</h5>
+                                <p class="f-s-12">Fulltime</p>
+                                <p class="card-text text-justify text-space">This is a wider card with supporting text
+                                    below as a natural lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <div class="row">
+                                    <span class="f-s-12 col"><span class="f-s-18">$2500</span>/month</span>
+                                    <a href="#" class="f-s-18 text-decoration-none  col text-purple text-end">Apply
+                                        now</a>
+                                </div>
+                            </div>
+                            <div class="card-footer " style=" border-top:none">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card "
+                             style="border: none; border-radius:15px ;  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;">
+                            <div class="row mt-3 mx-0 align-items-center">
+                                <div class="col-3">
+                                    <img src="assets/img/logo-company.png" class="card-img-top w-100" alt="...">
+                                </div>
+                                <div class="col d-flex flex-column f-s-18 text-start">
+                                    Microsoft
+                                    <span class="f-s-12 ">Freelancer</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Senior UI Designer</h5>
+                                <p class="f-s-12">Fulltime</p>
+                                <p class="card-text text-justify text-space">This is a wider card with supporting text
+                                    below as a natural lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <div class="row">
+                                    <span class="f-s-12 col"><span class="f-s-18">$2500</span>/month</span>
+                                    <a href="#" class="f-s-18 text-decoration-none  col text-purple text-end">Apply
+                                        now</a>
+                                </div>
+                            </div>
+                            <div class="card-footer " style=" border-top:none">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card "
+                             style="border: none; border-radius:15px ;  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;">
+                            <div class="row mt-3 mx-0 align-items-center">
+                                <div class="col-3">
+                                    <img src="assets/img/logo-company.png" class="card-img-top w-100" alt="...">
+                                </div>
+                                <div class="col d-flex flex-column f-s-18 text-start">
+                                    Microsoft
+                                    <span class="f-s-12 ">Freelancer</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Senior UI Designer</h5>
+                                <p class="f-s-12">Fulltime</p>
+                                <p class="card-text text-justify text-space">This is a wider card with supporting text
+                                    below as a natural lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <div class="row">
+                                    <span class="f-s-12 col"><span class="f-s-18">$2500</span>/month</span>
+                                    <a href="#" class="f-s-18 text-decoration-none  col text-purple text-end">Apply
+                                        now</a>
+                                </div>
+                            </div>
+                            <div class="card-footer " style=" border-top:none">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card "
+                             style="border: none; border-radius:15px ;  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;">
+                            <div class="row mt-3 mx-0 align-items-center">
+                                <div class="col-3">
+                                    <img src="assets/img/logo-company.png" class="card-img-top w-100" alt="...">
+                                </div>
+                                <div class="col d-flex flex-column f-s-18 text-start">
+                                    Microsoft
+                                    <span class="f-s-12 ">Freelancer</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Senior UI Designer</h5>
+                                <p class="f-s-12">Fulltime</p>
+                                <p class="card-text text-justify text-space">This is a wider card with supporting text
+                                    below as a natural lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <div class="row">
+                                    <span class="f-s-12 col"><span class="f-s-18">$2500</span>/month</span>
+                                    <a href="#" class="f-s-18 text-decoration-none  col text-purple text-end">Apply
+                                        now</a>
+                                </div>
+                            </div>
+                            <div class="card-footer " style=" border-top:none">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next" style="color: #4540db"></div>
+                <div class="swiper-button-prev" style="color: #4540db"></div>
+            </div>
+
+
+            <div class="row my-3">
+                <div class="col f-s-20 text-black">
                     Công ty hàng đầu
                 </div>
             </div>
@@ -222,6 +381,8 @@
                 <div class="swiper-button-next" style="color: #4540db"></div>
                 <div class="swiper-button-prev" style="color: #4540db"></div>
             </div>
+
+
         </div>
         </div>
 
