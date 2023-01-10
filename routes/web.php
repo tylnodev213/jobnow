@@ -17,3 +17,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('web.home.index');
 });
+
+Route::get('/find-job', function () {
+    return view('web.find-job.find_job');
+});
+Route::get('/post-job', function () {
+    return view('web.post-job.post_job');
+});
